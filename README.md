@@ -1,5 +1,6 @@
-# dolphinspired.github.io
-Playground for fun experiments 🧪
+# nuffle.me
+
+Nuffle's internet treehouse! 🐐 [https://nuffle.me](https://nuffle.me)
 
 ## Local Development
 

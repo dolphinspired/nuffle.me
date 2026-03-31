@@ -1,12 +1,12 @@
 {
-  "name": "dolphinspired.github.io",
+  "name": "nuffle.me",
   "version": "1.0.0",
-  "description": "Playground for fun experiments 🧪",
+  "description": "Nuffle's internet treehouse",
   "homepage": "https://nuffle.me",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dolphinspired/dolphinspired.github.io.git"
+    "url": "git+https://github.com/dolphinspired/nuffle.me.git"
   },
   "scripts": {
     "build": "cross-env TEMP=./tmp parcel build 'src/**/*.html'",
