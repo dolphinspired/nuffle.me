@@ -1,3 +1,5 @@
 .parcel-cache
+.wrangler
 dist
 node_modules
+tmp

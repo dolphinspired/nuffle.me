@@ -10,15 +10,16 @@
   },
   "scripts": {
     "build": "cross-env TEMP=./tmp parcel build 'src/**/*.html'",
-    "clean": "rm -rf .parcel-cache dist",
-    "predeploy": "npm run clean && npm run build && cp CNAME dist",
-    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf .parcel-cache .wrangler dist tmp",
+    "login": "wrangler login",
+    "predeploy": "npm run clean && npm run build",
+    "deploy": "wrangler pages deploy dist/ --project-name=nuffle-me",
     "serve": "cross-env TEMP=./tmp parcel 'src/**/*.html'"
   },
   "devDependencies": {
     "cross-env": "^10.1.0",
-    "gh-pages": "^6.3.0",
     "parcel": "^2.15.4",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "wrangler": "^4.75.0"
   }
 }
