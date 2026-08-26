@@ -15,7 +15,7 @@ type NavTileConfig = {
 const navTiles: NavTileConfig[] = [
   {
     name: "Plushie Party",
-    href: "https://t.me/+TPV-HbxYaO1iMGIx",
+    href: "https://t.me/+VUS4JVIXJVs3N2E5",
     image: new URL("https://i.giphy.com/Vt4wDrLAnH1tu.webp"),
     eventName: "nav.party-invite",
     label: "🎊 Plushie Party Invite! 🎉 (BWS 2026)",
