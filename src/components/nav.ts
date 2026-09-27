@@ -15,10 +15,10 @@ type NavTileConfig = {
 const navTiles: NavTileConfig[] = [
   {
     name: "Plushie Party",
-    href: "https://t.me/+VUS4JVIXJVs3N2E5",
+    href: "https://t.me/+uzaCc2MrNEozMDBh",
     image: new URL("https://i.giphy.com/Vt4wDrLAnH1tu.webp"),
     eventName: "nav.party-invite",
-    label: "🎊 Plushie Party Invite! 🎉 (FSC 2026)",
+    label: "🎊 Plushie Party Invite! 🎉 (CFF 2026)",
     className: "nav-special",
     addDivider: true,
     condition: () => hasQueryParam("plushie", "true"),
